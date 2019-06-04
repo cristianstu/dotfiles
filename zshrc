@@ -20,14 +20,15 @@ source $HOME/.bash_aliases
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin"
 
-export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+#export JAVA_HOME="/usr/lib/jvm/default-java"
+export JAVA_HOME="/home/cristian/apps/android-studio/jre/"
 export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
 export LC_ALL=en_US.UTF-8
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/tools/bin:$ANDROID_HOME/tools:$PATH"
 export QT_QPA_PLATFORM=''
 
 # for zsh-completions plugin (it is a bit slow)
