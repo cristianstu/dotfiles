@@ -8,6 +8,7 @@ alias c="git commit -m $1"
 alias ca="git commit --amend"
 alias ga="git add -p"
 alias gp='git pull --rebase'
+alias gpp='gp && git prune-all && git cleanup'
 alias gd='git diff'
 alias gdw='git diff --word-diff'
 alias gt='gitk --all'
