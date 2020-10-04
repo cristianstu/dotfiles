@@ -20,6 +20,7 @@ alias zbm='zeus rake db:migrate db:test:prepare'
 alias gg='git grep -n --color'
 #alias gl='git log --graph --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset"'
 alias gl='git log --oneline --decorate --all --graph'
-alias ppr='git promote && hub pull-request'
+#alias ppr='git promote && hub pull-request'
+alias ppr='gh pr create'
 
 ysess='ysess -i'
