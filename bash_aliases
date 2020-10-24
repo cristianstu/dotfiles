@@ -5,7 +5,7 @@ alias zbr='zeus rails'
 
 alias st='git status'
 alias c="git commit -m $1"
-alias ca="git commit --amend"
+alias ca="git commit --amend --no-verify"
 alias ga="git add -p"
 alias gp='git pull --rebase'
 alias gpp='gp && git prune-all && git cleanup'
