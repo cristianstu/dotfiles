@@ -58,6 +58,8 @@ load-nvmrc
 
 source /home/cristian/.rvm/scripts/rvm
 
+test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 #Es muy lento!!
 #[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
 
