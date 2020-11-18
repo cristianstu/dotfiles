@@ -6,8 +6,6 @@
 .sublime-project
 *.sublime-project
 *.sublime-workspace
-.ruby-gemset
-.ruby-version
 .bundle/
 config/database.yml
 node_modules
