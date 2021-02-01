@@ -7,6 +7,5 @@
 *.sublime-project
 *.sublime-workspace
 .bundle/
-config/database.yml
 node_modules
 notes.txt
