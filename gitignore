@@ -2,10 +2,8 @@
 .*.swp
 .directory
 *~
-.rvmrc
 .sublime-project
 *.sublime-project
 *.sublime-workspace
 .bundle/
-node_modules
 notes.txt
