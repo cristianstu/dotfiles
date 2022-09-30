@@ -63,4 +63,5 @@ test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew
 #Es muy lento!!
 #[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
 
-bindkey '^[^M' quick-history-execute
+#bindkey '\t\t' quick-history-execute
+bindkey '^x' quick-history-execute
