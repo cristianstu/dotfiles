@@ -23,4 +23,6 @@ alias gl='git log --oneline --decorate --all --graph'
 #alias ppr='git promote && hub pull-request'
 alias ppr='gh pr create'
 
+alias dev='npm run dev'
+
 ysess='ysess -i'
