@@ -47,6 +47,6 @@ export QT_QPA_PLATFORM=''
 
 source /home/cristian/.rvm/scripts/rvm
 
-test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+#test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 bindkey '^x' autosuggest-execute
