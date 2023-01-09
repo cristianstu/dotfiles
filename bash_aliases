@@ -23,3 +23,5 @@ alias ppr='gh pr create'
 alias dev='npm run dev'
 
 ysess='ysess -i'
+
+alias tm='tmuxomatic'
