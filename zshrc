@@ -27,9 +27,9 @@ RPROMPT=''
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin"
 
 # fnm
-export PATH="/home/cristian/.local/share/fnm:$PATH"
-#eval "`fnm env`"
+export PATH="/home/cristian/.fnm:$PATH"
 eval "$(fnm env --use-on-cd)"
+
 
 #export JAVA_HOME="/usr/lib/jvm/default-java"
 export JAVA_HOME="/home/cristian/apps/android-studio/jre/"
