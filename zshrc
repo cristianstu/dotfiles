@@ -54,3 +54,5 @@ bindkey '^x' autosuggest-execute
 #set dark color-scheme
 gsettings set org.gnome.desktop.interface "color-scheme" "prefer-dark"
 
+#Use vim for git hub cli
+gh config set editor "vim"
