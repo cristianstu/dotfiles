@@ -25,3 +25,5 @@ alias dev='npm run dev'
 ysess='ysess -i'
 
 alias tm='tmuxomatic'
+
+alias lg=lazygit
