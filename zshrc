@@ -26,6 +26,9 @@ RPROMPT=''
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/.local/bin"
 
+# Snap
+export PATH="/snap/bin:$PATH"
+
 # fnm
 export PATH="/home/cristian/.fnm:$PATH"
 eval "$(fnm env --use-on-cd)"
