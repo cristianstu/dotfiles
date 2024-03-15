@@ -30,7 +30,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 export PATH="/snap/bin:$PATH"
 
 # fnm
-export PATH="/home/cristian/.fnm:$PATH"
+export PATH="/home/cristian/.local/share/fnm:$PATH"
+#export PATH="/home/cristian/.fnm:$PATH"
 eval "$(fnm env --use-on-cd)"
 
 
