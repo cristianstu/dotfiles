@@ -32,7 +32,7 @@
   co = checkout
   nff = merge --no-ff
   prune-all = remote prune origin
-  cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+  cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop\\|main' | xargs -n 1 git branch -d"
   pt = !git tag -l | xargs git tag -d && git fetch -t
 
 [mergetool]
