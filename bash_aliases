@@ -11,6 +11,8 @@ alias ga="git add -p"
 alias gpp='gpr && git prune-all && git cleanup'
 alias gt='gitk --all'
 alias tg='tig --all'
+alias gdnode="git diff $1 ':!package-lock.json'"
+alias gdpy="git diff $1 ':!uv.lock'"
 
 alias bm='b rake db:migrate db:test:prepare'
 alias bmm='b rake db:migrate && b rails db:migrate RAILS_ENV=test'
