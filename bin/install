@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
-ln -is $(readlink -f tmux) ~/.tmux
-ln -is $(readlink -f tmux-scroll-copy-mode) ~/.tmux-scroll-copy-mode
-ln -is $(readlink -f vim) ~/.vim
+ln -fs $(readlink -f tmux) ~/.tmux
+ln -fs $(readlink -f tmux-scroll-copy-mode) ~/.tmux-scroll-copy-mode
+ln -fs $(readlink -f vim) ~/.vim
 
 ln -is $(readlink -f bash_aliases) ~/.bash_aliases
 ln -is $(readlink -f gemrc) ~/.gemrc
