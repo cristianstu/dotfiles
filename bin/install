@@ -1,0 +1,17 @@
+#!/bin/sh
+
+ln -is $(readlink -f tmux) ~/.tmux
+ln -is $(readlink -f tmux-scroll-copy-mode) ~/.tmux-scroll-copy-mode
+ln -is $(readlink -f vim) ~/.vim
+
+ln -is $(readlink -f bash_aliases) ~/.bash_aliases
+ln -is $(readlink -f gemrc) ~/.gemrc
+ln -is $(readlink -f gitconfig) ~/.gitconfig
+ln -is $(readlink -f gitignore) ~/.gitignore
+ln -is $(readlink -f gvimrc) ~/.gvimrc
+ln -is $(readlink -f irbrc) ~/.irbrc
+ln -is $(readlink -f tmux.conf) ~/.tmux.conf
+ln -is $(readlink -f vimrc) ~/.vimrc
+
+cp -i $(readlink -f zshrc) ~/.zshrc
+
