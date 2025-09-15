@@ -14,3 +14,11 @@ ln -is $(readlink -f tmux.conf) ~/.tmux.conf
 ln -is $(readlink -f vimrc) ~/.vimrc
 ln -is $(readlink -f zshrc) ~/.zshrc
 
+if [ ! -f "/etc/docker/daemon.json" ]; then
+  echo "File '/etc/docker/daemon.json' does not exist, creating."
+  mkdir $HOME/docker
+  echo "{\"data-root\": \"$HOME/docker\"}" | sudo tee -a "/etc/docker/daemon.json"
+else
+  echo "Docker daemon.json already exist, skipping."
+fi
+
