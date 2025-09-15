@@ -12,6 +12,5 @@ ln -is $(readlink -f gvimrc) ~/.gvimrc
 ln -is $(readlink -f irbrc) ~/.irbrc
 ln -is $(readlink -f tmux.conf) ~/.tmux.conf
 ln -is $(readlink -f vimrc) ~/.vimrc
-
-cp -i $(readlink -f zshrc) ~/.zshrc
+ln -is $(readlink -f zshrc) ~/.zshrc
 
