@@ -50,11 +50,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/tools/bin:$ANDROID_HOME/tools:$PATH"
 export QT_QPA_PLATFORM=''
 
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-#eval "$(pyenv virtualenv-init -)"
-
 # for zsh-completions plugin (it is a bit slow)
 #autoload -U compinit && compinit
 
@@ -70,3 +65,4 @@ gsettings set org.gnome.desktop.interface "color-scheme" "prefer-dark"
 
 #Use vim for git hub cli
 gh config set editor "vim"
+
