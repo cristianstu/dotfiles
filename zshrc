@@ -18,7 +18,8 @@ node-prompt() {
 }
 
 ruby-prompt() {
-  echo "ruby-$(rbenv version | sed -e "s/ (set.*)//")"
+  #echo "ruby-$(rbenv version | sed -e "s/ (set.*)//")"
+  echo ""
 }
 
 ZSH_THEME_GIT_PROMPT_CONFLICTS="%{$fg[red]%}%{✘%G%}"
