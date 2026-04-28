@@ -1,18 +1,18 @@
 #!/bin/bash
 
-ln -isT $(readlink -f tmux) ~/.tmux
-ln -isT $(readlink -f tmux-scroll-copy-mode) ~/.tmux-scroll-copy-mode
-ln -isT $(readlink -f vim) ~/.vim
+ln -isTf $(readlink -f tmux) ~/.tmux
+ln -isTf $(readlink -f tmux-scroll-copy-mode) ~/.tmux-scroll-copy-mode
+ln -isTf $(readlink -f vim) ~/.vim
 
-ln -is $(readlink -f bash_aliases) ~/.bash_aliases
-ln -is $(readlink -f gemrc) ~/.gemrc
-ln -is $(readlink -f gitconfig) ~/.gitconfig
-ln -is $(readlink -f gitignore) ~/.gitignore
-ln -is $(readlink -f gvimrc) ~/.gvimrc
-ln -is $(readlink -f irbrc) ~/.irbrc
-ln -is $(readlink -f tmux.conf) ~/.tmux.conf
-ln -is $(readlink -f vimrc) ~/.vimrc
-ln -is $(readlink -f zshrc) ~/.zshrc
+ln -isf $(readlink -f bash_aliases) ~/.bash_aliases
+ln -isf $(readlink -f gemrc) ~/.gemrc
+ln -isf $(readlink -f gitconfig) ~/.gitconfig
+ln -isf $(readlink -f gitignore) ~/.gitignore
+ln -isf $(readlink -f gvimrc) ~/.gvimrc
+ln -isf $(readlink -f irbrc) ~/.irbrc
+ln -isf $(readlink -f tmux.conf) ~/.tmux.conf
+ln -isf $(readlink -f vimrc) ~/.vimrc
+ln -isf $(readlink -f zshrc) ~/.zshrc
 
 if [ ! -f "/etc/docker/daemon.json" ]; then
   echo "File '/etc/docker/daemon.json' does not exist, creating."
