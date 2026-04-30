@@ -186,6 +186,9 @@ set complete=.,t
 set ignorecase
 set smartcase
 
+set mouse=a
+set clipboard=unnamedplus
+
 " Tags
 let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 set tags=./tags;
