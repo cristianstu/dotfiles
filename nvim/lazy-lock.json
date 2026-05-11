@@ -1,0 +1,4 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
+  "universal-clipboard.nvim": { "branch": "main", "commit": "48a625ab592633a05446ef66031611593a5b55d9" }
+}
