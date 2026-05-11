@@ -22,6 +22,7 @@
 [user]
   name = Cristian Stügelmayer
   email = cristian@yellowspot.dev
+  signingkey = /home/cristian/.ssh/id_ed25519.pub
   
 [core]
   excludesfile = /home/cristian/.gitignore
@@ -52,4 +53,13 @@
 
 [credential]
   helper = cache --timeout=86400
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[tag]
+  gpgsign = true
 
