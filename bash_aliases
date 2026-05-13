@@ -29,3 +29,6 @@ ysess='ysess -i'
 alias tm='tmuxomatic'
 
 alias lg=lazygit
+
+alias npm=pnpm
+alias xnpm='command npm'
