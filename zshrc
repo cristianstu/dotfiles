@@ -67,3 +67,11 @@ gsettings set org.gnome.desktop.interface "color-scheme" "prefer-dark"
 #Use vim for git hub cli
 gh config set editor "vim"
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/cristian/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# opencode
+export PATH=/home/cristian/.opencode/bin:$PATH
