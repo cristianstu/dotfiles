@@ -7,3 +7,5 @@
 *.sublime-workspace
 .bundle/
 notes.txt
+
+**/.claude/settings.local.json
